@@ -28,4 +28,4 @@ group :development do
   gem 'coffee-rails-source-maps'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
