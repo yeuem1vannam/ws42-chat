@@ -3,13 +3,13 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.0.0'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 
 gem 'thin'
 gem 'websocket-rails', git: 'git://github.com/DanKnox/websocket-rails.git'
 
 gem "less-rails"
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails', '>= 2.2.7'
 
 # Gems used only for assets and not required
 # in production environments by default.
