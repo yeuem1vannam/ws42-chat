@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.0.0'
+gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 
 gem 'thin'
 gem 'websocket-rails', git: 'git://github.com/DanKnox/websocket-rails.git'
